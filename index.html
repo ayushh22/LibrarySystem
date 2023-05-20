@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibrarySystem</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+<div id="top"> </div>
+
+
+    <header>
+        <nav class="sticky">
+          <ul>
+            <li><a href="#top" style="float: left;">Library System</a></li>
+            <li><a href="#books" style="float: right;">Books</a></li>
+            <li><a href="#register" style="float: right;">Register</a></li>
+          </ul>
+        </nav>
+    </header>
+    
+
+
+
+
+<h2 id="books">Books</h2>
+
+    <table style="text-align: left; min-width: 60%;">
+      
+        <tr>
+          <th>Book ID</th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Genre</th>
+          <th>Availability</th>
+
+        </tr> 
+      
+		<tr>
+			<td>1</td>
+			<td> <b>The Immortals Of Meluha</b>
+				<table>
+					<tr>
+						<td> Publication Date: 2018</td>
+					</tr>
+					<tr>
+						<td> Page Count: 415 </td>
+					</tr>
+                  	<tr>
+						<td> ISBN: 9789356290525 </td>
+					</tr>
+				</table>
+			</td>
+          
+          <td> Amish Tripathi </td>
+          <td> Mythology </td>
+          <td> Available </td>
+		</tr>
+      
+		<tr>
+			<td>2</td>
+			<td> <b>Grunch of Giants</b>
+				<table>
+					<tr>
+						<td> Publication Date: 1983</td>
+					</tr>
+					<tr>
+						<td> Page Count: 128 </td>
+					</tr>
+                  	<tr>
+						<td> ISBN: 9780974060514 </td>
+					</tr>
+				</table>
+			</td>
+          
+          <td> R. Buckminster Fuller </td>
+          <td> Economics </td>
+          <td> Available </td>
+		</tr>
+      
+      	<tr>
+			<td>3</td>
+			<td> <b>Chip War</b>
+				<table>
+					<tr>
+						<td> Publication Date: 2022</td>
+					</tr>
+					<tr>
+						<td> Page Count: 464 </td>
+					</tr>
+                  	<tr>
+						<td> ISBN: 9781982172008 </td>
+					</tr>
+				</table>
+			</td>
+          
+          <td> Chris Miller </td>
+          <td> Technology </td>
+          <td> Available </td>
+		</tr>
+
+        <tr>
+			<td>4</td>
+			<td> <b>Rich Dad, Poor Dad</b>
+				<table>
+					<tr>
+						<td> Publication Date: 1997</td>
+					</tr>
+					<tr>
+						<td> Page Count: 195 </td>
+					</tr>
+                  	<tr>
+						<td> ISBN: 9780751532715 </td>
+					</tr>
+				</table>
+			</td>
+          
+          <td> Robert T. Kiyosaki</td>
+          <td> Finance </td>
+          <td> Available </td>
+		</tr>
+
+        <tr>
+			<td>5</td>
+			<td> <b>Wings Of Fire</b>
+				<table>
+					<tr>
+						<td> Publication Date: 1999</td>
+					</tr>
+					<tr>
+						<td> Page Count: 180 </td>
+					</tr>
+                  	<tr>
+						<td> ISBN: 9788173711466 </td>
+					</tr>
+				</table>
+			</td>
+          
+          <td> Dr. A.P.J. Abdul Kalam </td>
+          <td> Autobiography </td>
+          <td> Available </td>
+		</tr>
+	</table>
+
+
+
+<h2 id="register">Registration Form</h2>
+
+    <form action="" method="post" class="form">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName" required>
+  
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="lastName" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+  
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" min="5" max="100" required>
+  
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+  
+      <label for="confirmPassword">Confirm Password:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" required>
+  
+      <br><input type="submit" value="Register">
+    </form>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
